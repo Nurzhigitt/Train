@@ -4,9 +4,20 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     padding: 0 230px;
     width: 100%;
+}
+
+.title {
+    color:#04061E;
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .header {
@@ -49,5 +60,171 @@
         color: white;
         font-size: 48px;
         font-weight: 300;
+    }
+}
+
+
+// Navigation Section
+
+.navigation {
+    position: relative;
+    max-height: 1260px;
+    padding: 284px 0 244px 0;
+    &__back {
+        z-index: 10;
+        width: 70%;
+        top: -100px;
+        right: -300px;
+        position: absolute;
+    }
+
+    &__templ1 {
+        position: absolute;
+        top: -150px;
+        left: -100px;
+        width: 25%;
+        filter: blur(20px);
+    }
+
+    &__templ2{
+        position: absolute;
+        top: 470px;
+        left: 760px;
+        width: 20%;
+        filter: blur(20px);
+    }
+
+    &__subtitle {
+        color: #04061E;
+        font-size: 64px;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
+
+    &__img {
+        margin-top: 50px;
+    }
+
+    &__items {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .divider {
+        margin: 60px 0;
+        height: 2px;
+        width: 700px;
+        background: linear-gradient(270deg, rgba(186, 152, 114, 0.00) 25.29%, #BA9872 100%);
+    }
+
+    .title {
+        color: #04061E;
+        font-size: 64px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+}
+
+
+// Clinics 
+
+.clinics {
+    min-height: 860px;
+    &__head {
+        display: flex;
+        gap: 40px;
+        &_title {
+            color:#04061E;
+            font-size: 64px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.slider {
+    padding-left: 230px;
+}
+
+.slides {
+    margin-top: 70px;
+    display: flex;
+    overflow-x: hidden;
+    gap: 30px;
+    &__item {
+        flex: 0 0 auto;
+        transition: transform 0.5s ease;
+        width: 360px;
+        height: 500px;
+        padding: 55px;
+        border-radius: 10px;
+    }
+
+    &_1 {
+        background: url('../img/slider1.png');
+    }
+    &_2 {
+        background: url('../img/slider2.png');
+    }
+    &_3 {
+        background: url('../img/slider3.png');
+    }
+    &_4 {
+        background: url('../img/slider4.png');
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+    }
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.next {
+    margin-left: 16px;
+}
+
+
+
+// Call Us
+
+.callUs {
+    position: relative;
+    min-height: 1050px;
+
+    &__templ1 {
+        position: absolute;
+        width: 40%;
+        top: -100px;
+        right: -240px;
+        filter: blur(20px);
+    }
+    
+    &__templ2 {
+        position: absolute;
+        width: 50%;
+        top: -250px;
+        right: -200px;
+    }
+
+    &__subtitle {
+        margin-top: 38px;
+        max-width: 591px;
+        color:#04061E;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 45px;
     }
 }

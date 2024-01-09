@@ -4,9 +4,20 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .container {
   padding: 0 230px;
   width: 100%;
+}
+
+.title {
+  color: #04061E;
+  font-size: 64px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .header {
@@ -46,4 +57,147 @@
   color: white;
   font-size: 48px;
   font-weight: 300;
+}
+
+.navigation {
+  position: relative;
+  max-height: 1260px;
+  padding: 284px 0 244px 0;
+}
+.navigation__back {
+  z-index: 10;
+  width: 70%;
+  top: -100px;
+  right: -300px;
+  position: absolute;
+}
+.navigation__templ1 {
+  position: absolute;
+  top: -150px;
+  left: -100px;
+  width: 25%;
+  filter: blur(20px);
+}
+.navigation__templ2 {
+  position: absolute;
+  top: 470px;
+  left: 760px;
+  width: 20%;
+  filter: blur(20px);
+}
+.navigation__subtitle {
+  color: #04061E;
+  font-size: 64px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.navigation__img {
+  margin-top: 50px;
+}
+.navigation__items {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.navigation .divider {
+  margin: 60px 0;
+  height: 2px;
+  width: 700px;
+  background: linear-gradient(270deg, rgba(186, 152, 114, 0) 25.29%, #BA9872 100%);
+}
+.navigation .title {
+  color: #04061E;
+  font-size: 64px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.clinics {
+  min-height: 860px;
+}
+.clinics__head {
+  display: flex;
+  gap: 40px;
+}
+.clinics__head_title {
+  color: #04061E;
+  font-size: 64px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.slider {
+  padding-left: 230px;
+}
+
+.slides {
+  margin-top: 70px;
+  display: flex;
+  overflow-x: hidden;
+  gap: 30px;
+}
+.slides__item {
+  flex: 0 0 auto;
+  transition: transform 0.5s ease;
+  width: 360px;
+  height: 500px;
+  padding: 55px;
+  border-radius: 10px;
+}
+.slides_1 {
+  background: url("../img/slider1.png");
+}
+.slides_2 {
+  background: url("../img/slider2.png");
+}
+.slides_3 {
+  background: url("../img/slider3.png");
+}
+.slides_4 {
+  background: url("../img/slider4.png");
+}
+.slides__text {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.next {
+  margin-left: 16px;
+}
+
+.callUs {
+  position: relative;
+  min-height: 1050px;
+}
+.callUs__templ1 {
+  position: absolute;
+  width: 40%;
+  top: -100px;
+  right: -240px;
+  filter: blur(20px);
+}
+.callUs__templ2 {
+  position: absolute;
+  width: 50%;
+  top: -250px;
+  right: -200px;
+}
+.callUs__subtitle {
+  margin-top: 38px;
+  max-width: 591px;
+  color: #04061E;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45px;
 }/*# sourceMappingURL=style.css.map */

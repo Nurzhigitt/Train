@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: #FAFDFF;
 }
 
 .container {
@@ -200,4 +201,24 @@ button {
   font-size: 32px;
   font-weight: 400;
   line-height: 45px;
+}
+.callUs__input {
+  padding: 24px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  border: 1px solid #afafaf;
+}
+.callUs__1check {
+  margin-top: 10px;
+}
+.callUs__form {
+  margin-top: 50px;
+}
+.callUs__form_inputs {
+  display: flex;
+  flex-direction: column;
+  width: 590px;
+  gap: 10px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */

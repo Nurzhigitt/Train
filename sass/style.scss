@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #FAFDFF;
 }
 
 .container {
@@ -227,4 +228,31 @@ button {
         font-weight: 400;
         line-height: 45px;
     }
+
+    &__input {
+        padding: 24px;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+        border: 1px solid #afafaf;
+    }
+
+    &__1check {
+        margin-top: 10px;
+    }
+
+    &__form {
+        margin-top: 50px;
+        &_inputs {
+            display: flex;
+            flex-direction: column;
+            width: 590px;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+    }
 }
+
+
+
+

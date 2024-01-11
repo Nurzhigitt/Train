@@ -207,7 +207,10 @@ button {
   border-radius: 10px;
   border: none;
   font-size: 20px;
-  border: 1px solid #afafaf;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.callUs__input:nth-child(2) {
+  margin-top: 15px;
 }
 .callUs__1check {
   margin-top: 10px;
@@ -221,4 +224,12 @@ button {
   width: 590px;
   gap: 10px;
   margin-bottom: 20px;
+}
+.callUs__Btn {
+  border-radius: 10px;
+  background: #0C97CD;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
 }/*# sourceMappingURL=style.css.map */
